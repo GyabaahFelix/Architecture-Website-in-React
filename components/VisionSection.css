@@ -1,0 +1,111 @@
+/* VisionSection.css */
+
+.vision {
+    padding: 60px 20px;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+  }
+  
+  .vision h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #ffa500;
+  }
+  
+  .slick-slider {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slick-dots {
+    bottom: -40px; /* Position dots below the slider */
+  }
+  
+  .slick-dots li button:before {
+    color: #ffa500; /* Dot color */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #ff7f00; /* Active dot color */
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: #ffa500; /* Arrow color */
+  }
+  
+  .vision-card {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .vision-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .vision-card p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .vision-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .vision button {
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .vision button:hover {
+    background-color: #ff7f00;
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .vision {
+      padding: 40px 20px;
+    }
+  
+    .vision h2 {
+      font-size: 28px;
+    }
+  
+    .vision-card {
+      margin: 0 5px;
+    }
+  
+    .vision-card h3 {
+      font-size: 20px;
+    }
+  
+    .vision-card p {
+      font-size: 14px;
+    }
+  
+    .vision button {
+      font-size: 16px;
+      padding: 12px 25px;
+    }
+  }
+  

@@ -1,0 +1,74 @@
+/* NewsletterSection.css */
+
+.newsletter {
+    padding: 60px 20px;
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .newsletter h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #ffa500;
+  }
+  
+  .newsletter form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .newsletter label {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .newsletter input[type="text"],
+  .newsletter input[type="email"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    background-color: #e0dada;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .newsletter button {
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .newsletter button:hover {
+    background-color: #ff7f00;
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .newsletter {
+      padding: 40px 20px;
+    }
+  
+    .newsletter h2 {
+      font-size: 28px;
+    }
+  
+    .newsletter label {
+      font-size: 16px;
+    }
+  
+    .newsletter button {
+      font-size: 16px;
+      padding: 12px 25px;
+    }
+  }
+  
