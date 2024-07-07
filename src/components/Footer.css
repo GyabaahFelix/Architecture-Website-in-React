@@ -1,0 +1,52 @@
+/* Footer.css */
+
+footer {
+  background: linear-gradient(to right, #ffa500, #b705ba); /* Warm gradient colors */
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  height: 400px;
+}
+
+.contact-info p,
+.social-media a,
+.copyright p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.social-media {
+  margin-bottom: 20px;
+}
+
+.social-media a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+  color: #ffdd99; /* Lighter warm color on hover */
+}
+
+.copyright p {
+  font-size: 14px;
+  color: #eee;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 30px 15px;
+  }
+
+  .contact-info p,
+  .social-media a,
+  .copyright p {
+    font-size: 14px;
+  }
+}
