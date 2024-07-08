@@ -8,11 +8,11 @@ const NewsletterSection = () => {
       <form>
         <label>
           Name:
-          <input type="text" name="name" />
+          <input type="text" name="name" placeholder="Enter your name" />
         </label>
         <label>
           Email address:
-          <input type="email" name="email" />
+          <input type="email" name="email" placeholder="Enter your email" />
         </label>
         <button type="submit">Subscribe</button>
       </form>

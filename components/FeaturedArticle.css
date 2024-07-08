@@ -1,0 +1,26 @@
+.featured-article {
+    display: flex; /* Arranges image and info side-by-side */
+    margin-bottom: 2rem; /* Adds spacing between articles */
+  }
+  
+  .featured-article img {
+    width: 40%; /* Adjust width as needed */
+    object-fit: cover; /* Ensures image fills the container */
+  }
+  
+  .article-info {
+    padding: 1rem; /* Adds padding for content */
+  }
+  
+  .article-info h2 {
+    margin-bottom: 0.5rem; /* Reduces space below heading */
+  }
+  
+  .article-info p {
+    margin-bottom: 0.25rem; /* Adjust line spacing as needed */
+  }
+  
+  .author {
+    font-weight: bold; /* Makes author name stand out */
+  }
+  
